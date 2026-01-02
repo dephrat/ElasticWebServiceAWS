@@ -29,3 +29,20 @@ source .venv/bin/activate
 pip install -r requirements.txt
 python app.py
 # open http://localhost:8080/
+
+## Evidence
+
+### Baseline
+![Baseline](screenshots/01-baseline.png)
+
+### Scale-out under load
+![RequestCountPerTarget rising](screenshots/02-metric-rising.png)
+![ASG scaled out](screenshots/03-scale-out.png)
+
+### Load balancing verification
+![Hostname rotation](screenshots/04-hostname-rotation.png)
+
+### Scale-in and convergence
+![Scale-in](screenshots/05-scale-in.png)
+![Final state](screenshots/06-final-state.png)
+
