@@ -29,6 +29,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 python app.py
 # open http://localhost:8080/
+```
 
 ## Evidence
 
