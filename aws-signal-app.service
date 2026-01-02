@@ -1,0 +1,17 @@
+[Unit]
+Description=AWS Signal App (Flask via Gunicorn)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/aws-signal-app
+ExecStart=/usr/bin/gunicorn -w 2 -b 0.0.0.0:8080 app:app
+Restart=always
+RestartSec=2
+User=ubuntu
+Group=ubuntu
+Environment=PORT=8080
+
+[Install]
+WantedBy=multi-user.target
