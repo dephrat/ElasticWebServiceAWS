@@ -12,7 +12,7 @@ The ASG uses **target tracking** on **ALB RequestCountPerTarget** to scale out u
 - Scale-in behavior with connection draining (deregistration delay)
 
 ## Architecture
-Client → ALB (:80) → Target Group (:8080) → ASG EC2 Instances (Gunicorn/Flask)
+Client -> ALB (:80) -> Target Group (:8080) -> ASG EC2 Instances (Gunicorn/Flask)
 
 ## Endpoints
 - `GET /`  
