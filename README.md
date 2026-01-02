@@ -34,16 +34,17 @@ python app.py
 ## Evidence
 
 ### Baseline
-![Baseline](screenshots/01-baseline.png)
+![Baseline](screenshots/1-baseline.png)
 
 ### Scale-out under load
-![RequestCountPerTarget rising](screenshots/02-metric-rising.png)
-![ASG scaled out](screenshots/03-scale-out.png)
+![RequestCountPerTarget rising](screenshots/2-metric-rising.png)
+![ASG scaled out](screenshots/3-scale-out.png)
 
 ### Load balancing verification
-![Hostname rotation](screenshots/04-hostname-rotation.png)
+![Hostname rotation](screenshots/4-hostname-rotation.png)
 
 ### Scale-in and convergence
-![Scale-in](screenshots/05-scale-in.png)
-![Final state](screenshots/06-final-state.png)
+![ASG scale-in activity](screenshots/5-scale-in-ASG-activity.png)
+![Instance termination](screenshots/5-scale-in-terminating.png)
+
 
