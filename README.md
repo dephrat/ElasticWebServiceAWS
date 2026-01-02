@@ -44,7 +44,8 @@ python app.py
 ![Hostname rotation](screenshots/4-hostname-rotation.png)
 
 ### Scale-in and convergence
+![First instance termination](screenshots/5-scale-in-terminating.png)
 ![ASG scale-in activity](screenshots/5-scale-in-ASG-activity.png)
-![Instance termination](screenshots/5-scale-in-terminating.png)
+
 
 
