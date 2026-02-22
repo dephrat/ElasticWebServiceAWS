@@ -1,7 +1,7 @@
 # Elastic Web Service on AWS (ALB + ASG Target Tracking)
 
 A small Python HTTP service deployed behind an Application Load Balancer (ALB) and an Auto Scaling Group (ASG).  
-The ASG uses **target tracking** on **ALB RequestCountPerTarget** to scale out under load and scale back in after traffic subsides.
+The ASG uses target tracking on ALB RequestCountPerTarget to scale out under load and scale back in after traffic subsides.
 
 ## What this demonstrates
 - ALB listener (HTTP :80) forwarding to a target group (HTTP :8080)
